@@ -1,0 +1,28 @@
+﻿@model PartyEnvites.Models.GuestReponse;
+@{
+    Layout = null;
+}
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<DOCTYPE html>
+
+<html>
+    <head>
+        <title>Thanks</title>
+    </head>
+
+    <body>
+        <p>
+            <h1>Thank you, @Model.Name</h1>
+            @if (Model.WillAttend == true)
+            {
+                @:It's great that you're coming 
+            } else
+            {
+                @:You will be missed
+            }
+        </p>
+        see here who will attend. <a asp-action="ListResponse">List</a>
+    </body>
+</html>

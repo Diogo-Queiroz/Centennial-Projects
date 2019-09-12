@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<DOCTYPE html>
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.Taghelpers
+
+    @using Microsoft.AspNetCore.Mvc.Razor.TagHelpers;
+
+    <html>
+    <head>
+        <title>MyView</title>
+    </head>
+
+    <body>
+        <div>
+            @ViewBag.Greeting World (from the view)
+            <p>
+                We're going to have an exciting party. <br />
+                (to do: sell it better. Add a pic or something.)
+            </p>
+        </div>
+
+        <a asp-action="RsvpForm">RSVP Form</a>
+    </body>
+</html>
