@@ -2,17 +2,17 @@
 @{
     Layout = null;
 }
-
-<DOCTYPE html />
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-    <html>
+<html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="~/css/bootstrap-4.3.1/dist/css/bootstrap.css" />
         <title>MyView</title>
     </head>
 
     <body>
-        <div>
+        <div class="container">
             @ViewBag.Greeting World (from the view)
             <p>
                 We're going to have an exciting party. <br />
@@ -20,6 +20,6 @@
             </p>
         </div>
 
-        <a asp-action="RsvpForm">RSVP Form</a>
+        <a class="btn btn-primary stretched-link" asp-action="RsvpForm">RSVP Form</a>
     </body>
 </html>
