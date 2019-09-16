@@ -1,6 +1,5 @@
 package exercise2;
 
-import javax.naming.NameAlreadyBoundException;
 import javax.swing.*;
 
 public class BankAccountTest {
