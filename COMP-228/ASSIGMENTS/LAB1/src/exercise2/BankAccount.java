@@ -2,7 +2,7 @@ package exercise2;
 
 import javax.swing.*;
 
-public class BankAccount {
+class BankAccount {
     private int AccountNumber;
     private String Name;
     private double Balance;

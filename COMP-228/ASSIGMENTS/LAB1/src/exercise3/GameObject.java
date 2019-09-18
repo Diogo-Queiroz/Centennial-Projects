@@ -1,8 +1,9 @@
 package exercise3;
 
 import javax.swing.*;
+import java.awt.dnd.DropTarget;
 
-public class GameObject {
+class GameObject {
     private int x;
     private int y;
     private Center center = new Center();
@@ -16,6 +17,22 @@ public class GameObject {
                 velocity, rotation,
                 state.isAliveOrDead());
         JOptionPane.showMessageDialog(null, message);
+    }
+
+    GameObject(Center center, double velocity, ObjectState state, int rotation) {
+        this.center = center;
+        this.velocity = velocity;
+        this.state = state;
+        this.rotation = rotation;
+    }
+
+    GameObject () {
+        this.x = 0;
+        this.y = 9;
+        this.center = new Center(this.x, this.y);
+        this.velocity = 0.0;
+        this.state = new ObjectState(1);
+        this.rotation = 0;
     }
 
     public int getX() {
@@ -86,21 +103,21 @@ class Center {
 }
 
 class ObjectState {
-    private boolean state;
+    private int state;
 
-    ObjectState (boolean initialState) {
+    ObjectState (int initialState) {
         state = initialState;
     }
 
     ObjectState () {
-        state = true;
+        state = 1;
     }
 
-    private boolean isState() {
+    private int isState() {
         return state;
     }
     public String isAliveOrDead() {
-        if (isState()) {
+        if (isState() == 1) {
             return "I'm Alive";
         }
         else {
@@ -108,9 +125,9 @@ class ObjectState {
         }
     }
     public void Die() {
-        this.state = false;
+        this.state = 0;
     }
     public void Live() {
-        this.state = true;
+        this.state = 1;
     }
 }

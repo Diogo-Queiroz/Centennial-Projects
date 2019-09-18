@@ -9,13 +9,13 @@ public class GameObjectTest {
         int coordY;
         int rotation;
         double velocity;
-        boolean state;
+        int state;
 
         coordX = Integer.parseInt(JOptionPane.showInputDialog("X Coordinate?"));
         coordY = Integer.parseInt(JOptionPane.showInputDialog("Y Coordinate?"));
         rotation = Integer.parseInt(JOptionPane.showInputDialog("What is your rotation?"));
         velocity = Double.parseDouble(JOptionPane.showInputDialog("Your speed?"));
-        state = Boolean.parseBoolean("Are you alive?");
+        state = JOptionPane.showConfirmDialog(null, "Are you alive?");
 
         ObjectState objState = new ObjectState(state);
         Center center = new Center(coordX, coordY);

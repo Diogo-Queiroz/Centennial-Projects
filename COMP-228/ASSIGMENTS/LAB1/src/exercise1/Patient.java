@@ -1,6 +1,6 @@
 package exercise1;
 
-public class Patient {
+class Patient {
     private int patientId;
     private String firstName;
     private String lastName;
