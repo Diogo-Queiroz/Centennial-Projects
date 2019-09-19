@@ -1,6 +1,6 @@
 package exercise1;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class PatientTest {
     public static void main(String[] args) {

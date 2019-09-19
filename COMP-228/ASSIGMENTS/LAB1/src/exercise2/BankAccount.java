@@ -1,6 +1,6 @@
 package exercise2;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 class BankAccount {
     private int AccountNumber;
@@ -19,14 +19,11 @@ class BankAccount {
         Balance = 0;
     }
 
-    public void withdran(double Amount) {
-        if (Balance - Amount < 0) {
+    public void withdraw(double Amount) {
+        if (Amount > Balance) {
             JOptionPane.showMessageDialog(null, "I'm sorry, but you don't have enough money to process this request");
-        } else if (Balance > 0) {
+        } else {
             Balance = Balance - Amount;
-        }
-        else {
-            JOptionPane.showMessageDialog(null, "First make a deposit, thank you");
         }
     }
 
@@ -34,13 +31,15 @@ class BankAccount {
         Balance = Balance + Amount;
     }
 
-    public void getAccountInfo() {
-        JOptionPane.showMessageDialog(null,
-                String.format(
-                        "Account Number [%d], Owner's Name [%s], Account Balance [%.2f]",
+    public String getAccountInfo() {
+        String message = String.format(
+                        "|Account Number [%d]   |\n" +
+                        "|Owner's Name [%s]     |\n" +
+                        "|Account Balance [%.2f]|",
                         getAccountNumber(),
                         getName(),
-                        getBalance()));
+                        getBalance());
+        return message;
     }
 
     // Getter and Setter

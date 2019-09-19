@@ -1,6 +1,6 @@
 package exercise2;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class BankAccountTest {
     public static void main(String[] args) {
@@ -15,14 +15,14 @@ public class BankAccountTest {
 
         BankAccount bankAccount = new BankAccount(accountId, name, balance);
 
-        bankAccount.getAccountInfo();
+        JOptionPane.showMessageDialog(null, bankAccount.getAccountInfo());
         amount = Double.parseDouble(JOptionPane.showInputDialog("Make a Deposit of"));
         bankAccount.deposit(amount);
 
-        bankAccount.getAccountInfo();
+        JOptionPane.showMessageDialog(null, bankAccount.getAccountInfo());
         amount = Double.parseDouble(JOptionPane.showInputDialog("How much do you want to withdraw?"));
-        bankAccount.withdran(amount);
+        bankAccount.withdraw(amount);
 
-        bankAccount.getAccountInfo();
+        JOptionPane.showMessageDialog(null, bankAccount.getAccountInfo());
     }
 }

@@ -1,22 +1,21 @@
 package exercise3;
 
-import javax.swing.*;
-import java.awt.dnd.DropTarget;
-
 class GameObject {
-    private int x;
-    private int y;
     private Center center = new Center();
     private double velocity;
     private ObjectState state = new ObjectState();
     private int rotation;
 
-    public void getGameObjectInfo() {
-        String message = String.format("GameObject position (%d,%d) , Speed %.2f per second, Rotation %d, and what are your state? %s",
+    public String getGameObjectInfo() {
+        String message = String.format("" +
+                        "GameObject position (%d,%d)\n" +
+                        "Speed %.2f per second\n" +
+                        "Rotation %d\n" +
+                        "and what are your state? %s",
                 center.getX(), center.getY(),
                 velocity, rotation,
                 state.isAliveOrDead());
-        JOptionPane.showMessageDialog(null, message);
+        return message;
     }
 
     GameObject(Center center, double velocity, ObjectState state, int rotation) {
@@ -27,26 +26,12 @@ class GameObject {
     }
 
     GameObject () {
-        this.x = 0;
-        this.y = 9;
-        this.center = new Center(this.x, this.y);
+        this.center = new Center();
         this.velocity = 0.0;
         this.state = new ObjectState(1);
         this.rotation = 0;
     }
 
-    public int getX() {
-        return x;
-    }
-    public void setX(int x) {
-        this.x = x;
-    }
-    public int getY() {
-        return y;
-    }
-    public void setY(int y) {
-        this.y = y;
-    }
     public Center getCenter() {
         return center;
     }
@@ -117,7 +102,7 @@ class ObjectState {
         return state;
     }
     public String isAliveOrDead() {
-        if (isState() == 1) {
+        if (isState() != 1) {
             return "I'm Alive";
         }
         else {

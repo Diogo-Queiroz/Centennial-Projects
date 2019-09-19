@@ -1,7 +1,6 @@
 package exercise3;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JOptionPane;
 
 public class GameObjectTest {
     public static void main(String[] args) {
@@ -20,6 +19,8 @@ public class GameObjectTest {
         ObjectState objState = new ObjectState(state);
         Center center = new Center(coordX, coordY);
 
-        GameObject gameObject = new GameObject();
+        GameObject gameObject = new GameObject(center, velocity, objState, rotation);
+
+        JOptionPane.showMessageDialog(null, gameObject.getGameObjectInfo());
     }
 }

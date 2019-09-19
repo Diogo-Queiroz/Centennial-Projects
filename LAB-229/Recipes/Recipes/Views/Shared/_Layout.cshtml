@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>@ViewData["Title"] Recipes</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="~/lib/css/bootstrap/css/bootstrap.css"/>
+	</head>
+
+	<body>
+		<nav class = "navbar navbar-expand-lg navbar-dark bg-dark" >
+			<a class="navbar-brand" asp-action="Index">Navbar</a>
+			<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation" >
+				<span class="navbar-toggler-icon"></span>
+			</button>
+            
+			<div class = "collapse navbar-collapse" id = "navbarSupportedContent" >
+				<ul class="navbar-nav mr-auto">
+					<li class = "nav-item active" >
+						<a class="nav-link" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class = "nav-item" >
+						<a class="nav-link" asp-action="Display">Display Recipes</a>
+					</li>
+					<li class = "nav-item" >
+						<a class="nav-link" asp-action="Data">Data Page</a>
+					</li>
+					<li class = "nav-item" >
+						<a class="nav-link" asp-action="Insert">Insert Page</a>
+					</li>
+					<li class = "nav-item" >
+						<a class="nav-link" asp-action="User">User Page</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+		<div class = "container" >
+			<p>Hello World!!</p>
+			@RenderBody()
+		</div>
+	</body>
+</html>
