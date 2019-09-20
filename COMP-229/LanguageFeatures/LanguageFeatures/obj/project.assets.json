@@ -12535,23 +12535,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\301082193\\.nuget\\packages\\": {},
+    "C:\\Users\\diogo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\301082193\\source\\repos\\Centennial-Projects\\COMP-229\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "projectUniqueName": "C:\\repos\\Centennial-Projects\\COMP-229\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
       "projectName": "LanguageFeatures",
-      "projectPath": "C:\\Users\\301082193\\source\\repos\\Centennial-Projects\\COMP-229\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
-      "packagesPath": "C:\\Users\\301082193\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\301082193\\source\\repos\\Centennial-Projects\\COMP-229\\LanguageFeatures\\LanguageFeatures\\obj\\",
+      "projectPath": "C:\\repos\\Centennial-Projects\\COMP-229\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\Centennial-Projects\\COMP-229\\LanguageFeatures\\LanguageFeatures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\301082193\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12587,6 +12587,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
