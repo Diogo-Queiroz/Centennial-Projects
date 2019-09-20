@@ -35,60 +35,47 @@ class Patient {
     }
 
     // Getter and Setters
-
     public void setAddress(String address) {
         this.address = address;
     }
-
     public void setCity(String city) {
         this.city = city;
     }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
     public void setPatientId(int patientId) {
         this.patientId = patientId;
     }
-
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
-
     public void setProvince(String province) {
         this.province = province;
     }
-
-    public String getAddress() {
+    String getAddress() {
         return address;
     }
-
-    public String getCity() {
+    String getCity() {
         return city;
     }
-
-    public String getFirstName() {
+    String getFirstName() {
         return firstName;
     }
-
-    public String getLastName() {
+    String getLastName() {
         return lastName;
     }
-
-    public int getPatientId() {
+    int getPatientId() {
         return patientId;
     }
-
-    public String getPostalCode() {
+    String getPostalCode() {
         return postalCode;
     }
-
-    public String getProvince() {
+    String getProvince() {
         return province;
     }
+    String getFullName() { return firstName + " " + lastName; }
 }

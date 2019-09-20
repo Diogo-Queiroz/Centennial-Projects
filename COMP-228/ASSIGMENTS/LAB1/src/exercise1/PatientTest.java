@@ -22,8 +22,8 @@ public class PatientTest {
 
         Patient patient1 = new Patient(patientId, firstName, lastName, address, city, province, postalCode);
 
-        String message = String.format("The patient is %s %s, Id = %d, Address %s, Province %s, City %s, Postal CODE %s",
-                patient1.getFirstName(), patient1.getLastName(), patient1.getPatientId(), patient1.getAddress(),
+        String message = String.format("The patient is %s, Id = %d, Address %s, Province %s, City %s, Postal CODE %s",
+                patient1.getFullName(), patient1.getPatientId(), patient1.getAddress(),
                 patient1.getProvince(), patient1.getCity(), patient1.getPostalCode());
 
         JOptionPane.showMessageDialog(null, message);

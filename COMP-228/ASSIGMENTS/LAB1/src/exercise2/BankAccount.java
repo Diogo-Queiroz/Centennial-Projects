@@ -1,7 +1,5 @@
 package exercise2;
 
-import javax.swing.JOptionPane;
-
 class BankAccount {
     private int AccountNumber;
     private String Name;
@@ -19,37 +17,32 @@ class BankAccount {
         Balance = 0;
     }
 
-    public void withdraw(double Amount) {
-        if (Amount > Balance) {
-            JOptionPane.showMessageDialog(null, "I'm sorry, but you don't have enough money to process this request");
-        } else {
-            Balance = Balance - Amount;
-        }
+    void withdraw(double Amount) {
+        Balance = Balance - Amount;
     }
 
-    public void deposit(double Amount) {
+    void deposit(double Amount) {
         Balance = Balance + Amount;
     }
 
-    public String getAccountInfo() {
-        String message = String.format(
+    String getAccountInfo() {
+        return String.format(
                         "|Account Number [%d]   |\n" +
                         "|Owner's Name [%s]     |\n" +
                         "|Account Balance [%.2f]|",
                         getAccountNumber(),
                         getName(),
                         getBalance());
-        return message;
     }
 
     // Getter and Setter
-    public int getAccountNumber() {
+    private int getAccountNumber() {
         return AccountNumber;
     }
-    public String getName() {
+    private String getName() {
         return Name;
     }
-    public double getBalance() {
+    double getBalance() {
         return Balance;
     }
     public void setAccountNumber(int accountNumber) {

@@ -6,16 +6,15 @@ class GameObject {
     private ObjectState state = new ObjectState();
     private int rotation;
 
-    public String getGameObjectInfo() {
-        String message = String.format("" +
+    String getGameObjectInfo() {
+        return String.format("" +
                         "GameObject position (%d,%d)\n" +
                         "Speed %.2f per second\n" +
-                        "Rotation %d\n" +
+                        "Rotation %d\n degrees" +
                         "and what are your state? %s",
                 center.getX(), center.getY(),
                 velocity, rotation,
                 state.isAliveOrDead());
-        return message;
     }
 
     GameObject(Center center, double velocity, ObjectState state, int rotation) {
@@ -73,13 +72,13 @@ class Center {
     }
 
     // Getters and Setters
-    public int getX() {
+    int getX() {
         return X;
     }
     public void setX(int x) {
         X = x;
     }
-    public int getY() {
+    int getY() {
         return Y;
     }
     public void setY(int y) {
@@ -101,7 +100,7 @@ class ObjectState {
     private int isState() {
         return state;
     }
-    public String isAliveOrDead() {
+    String isAliveOrDead() {
         if (isState() != 1) {
             return "I'm Alive";
         }
