@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="848b7f51-f8b9-4c95-93de-5fb01e184946" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../COMP-228/ASSIGMENTS/LAB1/out/production/LAB1/exercise3/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../COMP-228/ASSIGMENTS/LAB1/out/production/LAB1/exercise3/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../COMP-228/ASSIGMENTS/LAB1/src/exercise3/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../COMP-228/ASSIGMENTS/LAB1/src/exercise3/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Razor/.idea/.idea.Razor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Razor/.idea/.idea.Razor/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/.idea/.idea.Recipes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/.idea/.idea.Recipes/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Insert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Insert.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Insert.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Insert.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SportsStore/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Controllers/Product.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Views/_ViewImports.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Models/FakeProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Models/EFProdcutRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Models/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Models/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Views/Product/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SportsStore/Views/Product/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SportsStore/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Views/_ViewImports.cshtml.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/SportsStore/Controllers/Product.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Startup.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Models/IProductRepository.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Models/FakeProductRepository.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Views/Product/List.cshtml.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Models/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/Models/EFProdcutRepository.cs" />
+        <option value="$PROJECT_DIR$/SportsStore/appsettings.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RF6XB1NQ9Jx0Gb5OhNQicWkqD3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.SportsStore">
+    <configuration name="SportsStore" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SportsStore/SportsStore.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="SportsStore" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsStore: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SportsStore/SportsStore.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="848b7f51-f8b9-4c95-93de-5fb01e184946" name="Default Changelist" comment="" />
+      <created>1569250533485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569250533485</updated>
+      <workItem from="1569250534908" duration="3111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

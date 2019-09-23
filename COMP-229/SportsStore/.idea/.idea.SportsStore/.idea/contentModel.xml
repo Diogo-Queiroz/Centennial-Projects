@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\repos\Centennial-Projects\COMP-229\SportsStore" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SportsStore" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ProductController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="EFProdcutRepository.cs" t="Include" />
+          <e p="FakeProductRepository.cs" t="Include" />
+          <e p="IProductRepository.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="SportsStore.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="SportsStore.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewImports.cshtml.cs" t="Include" />
+          <e p="Product" t="Include">
+            <e p="List.cshtml" t="Include" />
+            <e p="List.cshtml.cs" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="SportsStore.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\diogo\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\diogo\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SportsStore.-1518758553.00" t="ExcludeRecursive" />
+  </component>
+</project>

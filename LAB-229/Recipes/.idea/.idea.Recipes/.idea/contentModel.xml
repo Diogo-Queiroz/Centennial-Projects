@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\repos\Centennial-Projects\LAB-229\Recipes" t="IncludeFlat">
@@ -67,6 +67,11 @@
                   <e p="bootstrap.min.js.map" t="Include" />
                 </e>
               </e>
+              <e p="style.css" t="Include" />
+            </e>
+            <e p="img" t="Include">
+              <e p="icons8-chef-32-white.png" t="Include" />
+              <e p="icons8-chef-32.png" t="Include" />
             </e>
             <e p="js" t="Include">
               <e p="jquery.min.js" t="Include" />

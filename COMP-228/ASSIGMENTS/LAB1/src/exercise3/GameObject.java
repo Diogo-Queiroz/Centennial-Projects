@@ -10,7 +10,7 @@ class GameObject {
         return String.format("" +
                         "GameObject position (%d,%d)\n" +
                         "Speed %.2f per second\n" +
-                        "Rotation %d\n degrees" +
+                        "Rotation %d degrees\n" +
                         "and what are your state? %s",
                 center.getX(), center.getY(),
                 velocity, rotation,
