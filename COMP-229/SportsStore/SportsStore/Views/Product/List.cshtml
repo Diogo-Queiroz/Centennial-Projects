@@ -1,19 +1,10 @@
-﻿@page
-@model SportsStore.Views.Product.List
+﻿@model IEnumerable<Product>
 
-@{
-	Layout = null;
+@foreach (var p in Model)
+{
+	<div>
+		<h3>@p.Name</h3>
+		@p.Description
+		<h4>@p.Price.ToString("C")</h4>
+	</div>
 }
-
-<!DOCTYPE html>
-
-<html>
-	<head>
-		<title></title>
-	</head>
-	<body>
-		<div>
-			
-		</div>
-	</body>
-</html>

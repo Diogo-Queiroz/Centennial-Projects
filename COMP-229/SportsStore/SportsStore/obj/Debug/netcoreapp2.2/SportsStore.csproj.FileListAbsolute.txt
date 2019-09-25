@@ -21,3 +21,4 @@ C:\repos\Centennial-Projects\COMP-229\SportsStore\SportsStore\obj\Debug\netcorea
 C:\repos\Centennial-Projects\COMP-229\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\SportsStore.dll
 C:\repos\Centennial-Projects\COMP-229\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\SportsStore.pdb
 C:\repos\Centennial-Projects\COMP-229\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\SportsStore.csproj.CopyComplete
+C:\repos\Centennial-Projects\COMP-229\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs

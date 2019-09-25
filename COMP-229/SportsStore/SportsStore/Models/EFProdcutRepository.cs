@@ -12,6 +12,10 @@ namespace SportsStore.Models
       _context = context;
     }
 
-    public IQueryable<Product> Products => _context.Products;
+    public IQueryable<Product> Products
+    {
+      get => _context.Products;
+      set => _context.Products = null;
+    }
   }
 }
