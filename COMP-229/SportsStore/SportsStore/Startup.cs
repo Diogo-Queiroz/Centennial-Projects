@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.CodeAnalysis;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
@@ -26,12 +28,13 @@ namespace SportsStore
       services.AddDbContext<ApplicationDbContext>(Options =>
         Options.UseSqlServer(Configuration["Data:SportStoreProducts:ConnectionString"])
       );
-      services.AddTransient<IProductRepository, FakeProductRepository>();
+      //services.AddTransient<IProductRepository, FakeProductRepository>();
+      services.AddTransient<IProductRepository, EFProductRepository>();
       services.AddMvc();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env, ApplicationDbContext dbContext)
     {
       if (env.IsDevelopment())
       {
@@ -45,10 +48,36 @@ namespace SportsStore
         routes =>
         {
           routes.MapRoute(
+            name: null,
+            template: "{category}/Page{productPage:int}",
+            defaults: new {Controller = "Product", action = "List"}
+          );
+          routes.MapRoute(
+            name: null,
+            template: "Page{productPage:int}",
+            defaults: new {Controller = "Product", action = "List", productPage = 1}
+          );
+          routes.MapRoute(
+            name: null,
+            template: "{category}",
+            defaults: new {Controller = "Product", action = "List", productPage = 1}
+          );
+          routes.MapRoute(
+            name: "pagination",
+            template: "Products/Page{productPage}",
+            defaults: new {Controller = "Product", action = "List"}
+          );
+          routes.MapRoute(
+            name: null,
+            template: "",
+            defaults: new {Controller = "Product", action = "List", productPage = 1}
+          );
+          routes.MapRoute(
             name: "default",
-            template: "{controller=Product}/{action=List}/{id?}");
+            template: "{controller}/{action}/{id?}");
         }
       );
+      SeedData.EnsurePopulated(app);
     }
   }
 }

@@ -2,12 +2,12 @@
 
 namespace SportsStore.Models
 {
-  public class EFProdcutRepository : IProductRepository
+  public class EFProductRepository : IProductRepository
   {
     private ApplicationDbContext _context;
     private IProductRepository _productRepositoryImplementation;
 
-    public EFProdcutRepository(ApplicationDbContext context)
+    public EFProductRepository(ApplicationDbContext context)
     {
       _context = context;
     }

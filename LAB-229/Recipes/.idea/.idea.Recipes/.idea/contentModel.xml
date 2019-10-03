@@ -69,9 +69,77 @@
               </e>
               <e p="style.css" t="Include" />
             </e>
+            <e p="font-awesome" t="Include">
+              <e p="css" t="Include">
+                <e p="all.css" t="Include" />
+                <e p="all.min.css" t="Include" />
+                <e p="brands.css" t="Include" />
+                <e p="brands.min.css" t="Include" />
+                <e p="fontawesome.css" t="Include" />
+                <e p="fontawesome.min.css" t="Include" />
+                <e p="regular.css" t="Include" />
+                <e p="regular.min.css" t="Include" />
+                <e p="solid.css" t="Include" />
+                <e p="solid.min.css" t="Include" />
+                <e p="svg-with-js.css" t="Include" />
+                <e p="svg-with-js.min.css" t="Include" />
+                <e p="v4-shims.css" t="Include" />
+                <e p="v4-shims.min.css" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p="all.js" t="Include" />
+                <e p="all.min.js" t="Include" />
+                <e p="brands.js" t="Include" />
+                <e p="brands.min.js" t="Include" />
+                <e p="conflict-detection.js" t="Include" />
+                <e p="conflict-detection.min.js" t="Include" />
+                <e p="fontawesome.js" t="Include" />
+                <e p="fontawesome.min.js" t="Include" />
+                <e p="regular.js" t="Include" />
+                <e p="regular.min.js" t="Include" />
+                <e p="solid.js" t="Include" />
+                <e p="solid.min.js" t="Include" />
+                <e p="v4-shims.js" t="Include" />
+                <e p="v4-shims.min.js" t="Include" />
+              </e>
+              <e p="sprites" t="Include">
+                <e p="brands.svg" t="Include" />
+                <e p="regular.svg" t="Include" />
+                <e p="solid.svg" t="Include" />
+              </e>
+              <e p="webfonts" t="Include">
+                <e p="fa-brands-400.eot" t="Include" />
+                <e p="fa-brands-400.svg" t="Include" />
+                <e p="fa-brands-400.ttf" t="Include" />
+                <e p="fa-brands-400.woff" t="Include" />
+                <e p="fa-brands-400.woff2" t="Include" />
+                <e p="fa-regular-400.eot" t="Include" />
+                <e p="fa-regular-400.svg" t="Include" />
+                <e p="fa-regular-400.ttf" t="Include" />
+                <e p="fa-regular-400.woff" t="Include" />
+                <e p="fa-regular-400.woff2" t="Include" />
+                <e p="fa-solid-900.eot" t="Include" />
+                <e p="fa-solid-900.svg" t="Include" />
+                <e p="fa-solid-900.ttf" t="Include" />
+                <e p="fa-solid-900.woff" t="Include" />
+                <e p="fa-solid-900.woff2" t="Include" />
+              </e>
+            </e>
             <e p="img" t="Include">
+              <e p="background-kitchen.jpg" t="Include" />
+              <e p="Bolo-De-Cenoura.jpg" t="Include" />
+              <e p="brazil-flag.jpg" t="Include" />
+              <e p="brazil-half-flag.png" t="Include" />
+              <e p="Brigadeiro.jpg" t="Include" />
+              <e p="Feijoada.jpg" t="Include" />
               <e p="icons8-chef-32-white.png" t="Include" />
               <e p="icons8-chef-32.png" t="Include" />
+              <e p="Lasagna.jpg" t="Include" />
+              <e p="Pamonha.jpg" t="Include" />
+              <e p="Pastel.jpg" t="Include" />
+              <e p="Shrimp-Bobo.jpg" t="Include" />
+              <e p="Sirloin.jpg" t="Include" />
+              <e p="Spaghetti.jpg" t="Include" />
             </e>
             <e p="js" t="Include">
               <e p="jquery.min.js" t="Include" />
