@@ -2,91 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="848b7f51-f8b9-4c95-93de-5fb01e184946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SportsStore/Views/Shared/ProductSummary.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/Views/Shared/ProductSummary.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/Views/Shared/_Layout.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/Views/_ViewStart.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/libman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/libman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/Product/List.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/Shared/ProductSummary.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Models/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Models/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Models/EFProdcutRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Models/EFProdcutRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Views/Product/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Views/Product/List.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/bin/Debug/netcoreapp2.2/SportsStore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/Product/List.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.TagHelpers.output.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.RazorAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/Debug/netcoreapp2.2/SportsStore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportsStore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/.idea/.idea.Recipes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/.idea/.idea.Recipes/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/DesignTimeBuild/.dtbcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/.vs/Recipes/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Data.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Data.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Display.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Display.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Insert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/Insert.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/User.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Home/User.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/bin/Debug/netcoreapp2.2/Recipes.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/libman.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/libman.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Data.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Display.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/Insert.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Home/User.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Debug/netcoreapp2.2/Recipes.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Recipes.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Recipes.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Recipes.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/Recipes.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/wwwroot/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB-229/Recipes/Recipes/wwwroot/lib/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -253,6 +177,7 @@
       <workItem from="1570127334872" duration="568000" />
       <workItem from="1570127951488" duration="95000" />
       <workItem from="1570128148998" duration="144000" />
+      <workItem from="1570129070500" duration="1084000" />
     </task>
     <servers />
   </component>
