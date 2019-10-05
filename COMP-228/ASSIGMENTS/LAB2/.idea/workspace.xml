@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3cac96f-8762-427c-ba38-fc8eef713e57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab2/.idea/DiogoQueiroz_COMP228Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/LAB1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/LAB1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise1/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise1/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise1/PatientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise1/PatientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise2/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise2/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise2/BankAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise2/BankAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise3/Center.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise3/Center.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise3/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise3/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise3/GameObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise3/GameObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/out/production/LAB1/exercise3/ObjectState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/out/production/LAB1/exercise3/ObjectState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/src/exercise1/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/src/exercise1/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/src/exercise1/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/src/exercise1/PatientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/src/exercise2/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/src/exercise2/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/src/exercise2/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/src/exercise2/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/src/exercise3/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/src/exercise3/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB1/src/exercise3/GameObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab1/src/exercise3/GameObjectTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1RkFAh9sCjrU3PtTBpBHXacc6CE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DiogoQueiroz_COMP228Lab2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3cac96f-8762-427c-ba38-fc8eef713e57" name="Default Changelist" comment="" />
+      <created>1570203044555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570203044555</updated>
+      <workItem from="1570203045853" duration="884000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
