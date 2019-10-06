@@ -7,6 +7,7 @@ class QuestionsCollection {
     private String[] QuestionsArr = new String[5];
     private String[][] AnswersArr = new String[5][5];
     private float Grade = 0;
+    private int incorrectOnes = 0;
     private final float qtdQuestion = 5;
 
     public void setQuestionsArr() {
@@ -79,7 +80,7 @@ class QuestionsCollection {
 
     private void showGrade() {
         float totalGrade = this.Grade / this.qtdQuestion * 100f;
-        String message = String.format("Your test is finished\nCorrect Answers = %.0f\nYour Grade = %.2f%%",this.Grade, totalGrade);
+        String message = String.format("Your test is finished\nCorrect Answers = %.0f || Incorrect Answers = %d\nYour Grade = %.2f%%",this.Grade, this.incorrectOnes, totalGrade);
         JOptionPane.showMessageDialog(null, message);
     }
 
@@ -90,9 +91,14 @@ class QuestionsCollection {
             JOptionPane.showMessageDialog(null, feedback);
         }
         else {
+            incorrectAnswer();
             String feedback = generateMessage(false);
             JOptionPane.showMessageDialog(null, feedback);
         }
+    }
+
+    private void incorrectAnswer() {
+        this.incorrectOnes++;
     }
 
     private String generateMessage(boolean correct) {
