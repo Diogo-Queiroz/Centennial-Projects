@@ -16,8 +16,6 @@ namespace SportsStore.Controllers
       _repository = repository;
     }
 
-    //public ViewResult List() => View(_repository.Products);
-
     public ViewResult List(string category, int productPage = 1) =>
       View(new ProductListViewModel
       {
@@ -30,8 +28,11 @@ namespace SportsStore.Controllers
         {
           CurrentPage = productPage,
           ItemsPerPage = pageSize,
-          TotalItems = _repository.Products.Count()
-        }
+          TotalItems = category == null ?
+            _repository.Products.Count() :
+            _repository.Products.Where(e => e.Category == category).Count()
+        },
+        CurrentCategory = category
       });
   }
 }

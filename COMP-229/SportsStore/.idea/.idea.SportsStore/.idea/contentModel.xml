@@ -7,12 +7,20 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="CartSummaryViewComponent.cs" t="Include" />
+          <e p="NavigationMenuViewComponent.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
+          <e p="CartController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
           <e p="ProductController.cs" t="Include" />
         </e>
         <e p="Infrastructure" t="Include">
           <e p="PageLinkTagHelper.cs" t="Include" />
           <e p="ProductListViewModel.cs" t="Include" />
+          <e p="SessionExtensions.cs" t="Include" />
+          <e p="UrlExtensions.cs" t="Include" />
         </e>
         <e p="libman.json" t="Include" />
         <e p="Migrations" t="Include">
@@ -22,12 +30,18 @@
         </e>
         <e p="Models" t="Include">
           <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="Cart.cs" t="Include" />
+          <e p="EFOrderRepository.cs" t="Include" />
           <e p="EFProdcutRepository.cs" t="Include" />
           <e p="FakeProductRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
           <e p="IProductRepository.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="SeedData.cs" t="Include" />
+          <e p="SessionCart.cs" t="Include" />
           <e p="ViewModels" t="Include">
+            <e p="CartIndexViewModel.cs" t="Include" />
             <e p="PagingInfo.cs" t="Include" />
           </e>
         </e>
@@ -49,6 +63,16 @@
           <e p="_ViewImports.cshtml.cs" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="_ViewStart.cshtml.cs" t="Include" />
+          <e p="Cart" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="Checkout.cshtml" t="Include" />
+            <e p="Checkout.cshtml.cs" t="Include" />
+            <e p="Completed.cshtml" t="Include" />
+            <e p="Completed.cshtml.cs" t="Include" />
+          </e>
           <e p="Product" t="Include">
             <e p="List.cshtml" t="Include" />
             <e p="List.cshtml.cs" t="Include" />
@@ -56,6 +80,16 @@
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_Layout.cshtml.cs" t="Include" />
+            <e p="Components" t="Include">
+              <e p="CartSummary" t="Include">
+                <e p="Default.cshtml" t="Include" />
+                <e p="Default.cshtml.cs" t="Include" />
+              </e>
+              <e p="NavigationMenu" t="Include">
+                <e p="Default.cshtml" t="Include" />
+                <e p="Default.cshtml.cs" t="Include" />
+              </e>
+            </e>
             <e p="ProductSummary.cshtml" t="Include" />
             <e p="ProductSummary.cshtml.cs" t="Include" />
           </e>
