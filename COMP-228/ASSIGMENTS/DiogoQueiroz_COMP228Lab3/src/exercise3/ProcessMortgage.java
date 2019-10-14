@@ -15,7 +15,7 @@ public class ProcessMortgage {
         String[] optionsOfMortgages = {"Business", "Personal"};
         Mortgage[] mortgages = new Mortgage[3];
 
-        msg = 
+        msg = "Please, provider your interest rate";
         interestRate = Double.parseDouble(JOptionPane.showInputDialog(null, msg));
         for (int i = 0; i < mortgages.length; i++) {
             JOptionPane.showMessageDialog(null, "This application will calculate your Mortgage");

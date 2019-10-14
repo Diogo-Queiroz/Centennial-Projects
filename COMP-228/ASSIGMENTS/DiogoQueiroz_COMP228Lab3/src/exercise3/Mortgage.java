@@ -22,6 +22,40 @@ public abstract class Mortgage implements MortgageConstants{
         this.term = term;
     }
 
+    public String getMortgageNumber() {
+        return mortgageNumber;
+    }
+    public void setMortgageNumber(String mortgageNumber) {
+        this.mortgageNumber = mortgageNumber;
+    }
+    public String getCustomerName() {
+        return customerName;
+    }
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+    public double getMortgageAmount() {
+        return mortgageAmount;
+    }
+    public void setMortgageAmount(double mortgageAmount) {
+        this.mortgageAmount = mortgageAmount;
+    }
+    public double getInterestRate() {
+        return interestRate;
+    }
+    public void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
+    }
+    public int getTerm() {
+        return term;
+    }
+    public void setTerm(int term) {
+        if (term != shortTerm && term != midTerm && term != longTerm){
+            this.term = shortTerm;
+        }
+        this.term = term;
+    }
+
     abstract String getMortgageInfo ();
 }
 
