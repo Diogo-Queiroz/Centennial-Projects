@@ -1,0 +1,49 @@
+﻿
+@{
+	ViewData["Title"] = "Insert";
+	Layout = "_Layout";
+}
+
+<h1>Form to Insert the Recipe</h1>
+<form method="post" asp-action="Insert">
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label for="inputName" class="col-sm-3 col-form-label text-right">Recipe Name:</label>
+		<div class="col-sm-5">
+			<input type="text" class="form-control" id="inputName" placeholder="Recipe Name" />
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label for="inputIngredients" class="col-sm-3 col-form-label text-right">Ingredients:</label>
+		<div class="col-sm-5">
+			<textarea id="inputIngredients" class="form-control"></textarea>
+		</div>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label for="inputSteps" class="col-sm-3 col-form-label text-right">Steps:</label>
+		<div class="col-sm-5">
+			<textarea class="form-control" id="inputSteps"></textarea>
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label for="inputPic" class="col-sm-3 col-form-label text-right">Send Images:</label>
+		<div class="col-sm-5">
+			<input type="file" class="btn btn-lg text-left" id="inputPic" />
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-4"></span>
+		<div class="col-sm-8">
+			<button type="submit" class="btn btn-lg btn-success">Send</button>
+			<button type="reset" class="btn btn-lg btn-danger">Reset</button>
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+</form>
+
