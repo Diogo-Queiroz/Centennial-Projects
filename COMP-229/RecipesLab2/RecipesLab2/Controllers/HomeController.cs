@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using RecipesLab2.Models;
 
@@ -15,17 +16,44 @@ namespace RecipesLab2.Controllers
     
     public ViewResult Data()
     {
-      return View();
+      return View(Repository.Recipes);
     }
 
-    public ViewResult Display()
+    [HttpGet]
+    public ViewResult Display(int id)
     {
-      return View();
+      Recipe recipe = Repository.Recipes.Where(n => n.RecipeID == id).FirstOrDefault();
+      return View(recipe);
     }
 
+    [HttpGet]
     public ViewResult Insert()
     {
       return View();
+    }
+
+    [HttpPost]
+    public ViewResult Insert(Recipe recipe)
+    {
+      if (ModelState.IsValid)
+      {
+        int tempID;
+        if (Repository.Recipes.Count() == 0)
+        {
+          tempID = 1;
+        }
+        else
+        {
+          tempID = Repository.Recipes.Count() + 1;
+        }
+        recipe.RecipeID = tempID;
+        Repository.AddRecipe(recipe);
+        return View("Success", recipe);
+      } 
+      else
+      {
+        return View();
+      }
     }
 
     public ViewResult User()

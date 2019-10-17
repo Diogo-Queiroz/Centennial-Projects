@@ -1,109 +1,37 @@
-﻿@{
+﻿@model IEnumerable<RecipesLab2.Models.Recipe>
+@{
+	int counter = 1;
 	ViewData["Title"] = "Data";
 	Layout = "_Layout";
 }
 
 <h1>Details Recipe (Placeholder)</h1>
 <div class="container">
-	<div class="row">
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Pastel.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Brazilian Pastel</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Pamonha.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Brazilian Pamonha</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Brigadeiro.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Brazilian Brigadeiro</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div class="row">
+	@foreach (Recipe recipe in Model)
+	{
+		if (counter == 1)
+		{
+			@:<div class="row">
+		}
 		<div class="col">
 			<div class="card">
-				<img src="~/lib/img/Bolo-De-Cenoura.jpg" class="card-img-top" alt="Image Recipe" />
 				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Brazilian Bolo de Cenoura (Carrot Cake)</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
+					<h5 class="card-title">Recipe of - @recipe.Name</h5>
+					<p class="card-text">@recipe.Description</p>
+					<a asp-action="Display" asp-route-id="@recipe.RecipeID" class="btn btn-primary">@recipe.Name Details</a>
 				</div>
 			</div>
 		</div>
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Shrimp-Bobo.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Brazilian Bobo de Camarao (Shrimp)</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Feijoada.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Brazilian Feijoada</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
+		if (counter == 3)
+		{
+			@:</div>
+			counter = 0;
+		}
+		counter++;
+	}
 	</div>
-
-	<div class="row">
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Spaghetti.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Spaghetti</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Lasagna.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Lasagna</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-		<div class="col">
-			<div class="card">
-				<img src="~/lib/img/Sirloin.jpg" class="card-img-top" alt="Image Recipe" />
-				<div class="card-body">
-					<h5 class="card-title">Recipe of (PlaceHolder) - Sirloin</h5>
-					<p class="card-text">Brief description of the recipe, using the link we open the page to show more details, steps, ingredients and more...</p>
-					<a href="#" class="btn btn-primary">(Placeholder) Details</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
+<div class="container">
 	<div class="row">
 		<div class="col"></div>
 		<div class="col">

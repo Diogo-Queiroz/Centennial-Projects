@@ -1,0 +1,12 @@
+﻿@model RecipesLab2.Models.Recipe
+
+@{ 
+	Layout = "_Layout";
+}
+
+<div class="bg-success text-center">
+	<h1>YOUR RECIPE @Model.Name WAS UPLOADED SUCCESSFULLY</h1>
+	<p>Click <a class="link" asp-action="Data">here</a> to see a list</p>
+	<p>Click <a class="link" asp-action="Index">here</a> to get back to home page</p>
+	<p>Click <a class="link" asp-action="Insert">here</a> to insert another recipe.</p>
+</div>

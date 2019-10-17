@@ -1,4 +1,4 @@
-﻿
+﻿@model RecipesLab2.Models.Recipe
 @{
 	ViewData["Title"] = "Display";
 	Layout = "_Layout";
@@ -8,20 +8,17 @@
 <div class="container">
 	<div class="row">
 		<div class="col">
-			<img src="~/lib/img/Pastel.jpg" alt="Pastel Picture" class="img-thumbnail" />
-		</div>
-		<div class="col">
-			<h2>Brazilian Pastel Recipe</h2>
+			<h2>@Model.Name - Recipe</h2>
 			<h3>Ingredients:</h3>
-			<p>
-				<ol>
-					<li>Item 1;</li>
-					<li>Item 2;</li>
-				</ol>
-			</p>
+			<p>@Model.Ingredients</p>
 			<hr />
 			<h3>Steps:</h3>
-			<p>Space destined as a placeholder for the step by step instructions of the recipe.</p>
+			<p>@Model.Steps</p>
+			<hr />
+			<h3>Serves:</h3>
+			<p>@Model.qtdOfServes</p>
+			<h3>Time to Prepare:</h3>
+			<p>@Model.timeToPrepare minutes</p>
 		</div>
 	</div>
 </div>

@@ -1,0 +1,60 @@
+﻿@model RecipesLab2.Models.Recipe
+
+<form method="post" asp-action="Insert">
+	<div asp-validation-summary="All"></div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label asp-for="Name" class="col-sm-3 col-form-label text-right">Recipe Name:</label>
+		<div class="col-sm-5">
+			<input asp-for="Name" type="text" class="form-control" placeholder="Recipe Name" />
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label asp-for="Description" class="col-sm-3 col-form-label text-right">Recipe Name:</label>
+		<div class="col-sm-5">
+			<textarea asp-for="Description" class="form-control"></textarea>
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label asp-for="Ingredients" class="col-sm-3 col-form-label text-right">Ingredients:</label>
+		<div class="col-sm-5">
+			<textarea asp-for="Ingredients" class="form-control"></textarea>
+		</div>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label asp-for="Steps" class="col-sm-3 col-form-label text-right">Steps:</label>
+		<div class="col-sm-5">
+			<textarea class="form-control" asp-for="Steps"></textarea>
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label asp-for="qtdOfServes" class="col-sm-3 col-form-label text-right">Serves:</label>
+		<div class="col-sm-5">
+			<input type="number" value="0" class="btn btn-lg text-left" asp-for="qtdOfServes" />
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-1"></span>
+		<label asp-for="timeToPrepare" class="col-sm-3 col-form-label text-right">Time To Prepare (minutes):</label>
+		<div class="col-sm-5">
+			<input type="number" value="0" class="btn btn-lg text-left" asp-for="timeToPrepare" />
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+	<div class="form-group row">
+		<span class="col-sm-4"></span>
+		<div class="col-sm-8">
+			<button type="submit" class="btn btn-lg btn-success">Send</button>
+			<a asp-action="Index" class="btn btn-lg btn-danger">Cancel</a>
+		</div>
+		<span class="col-sm-3"></span>
+	</div>
+</form>

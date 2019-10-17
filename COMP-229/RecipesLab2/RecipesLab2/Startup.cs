@@ -43,6 +43,9 @@ namespace RecipesLab2
         routes.MapRoute(
           name: "default",
           template: "{controller=Home}/{action=Index}/{id?}");
+        routes.MapRoute(
+          name: "display",
+          template: "{controller=Home}/{action=Display}/{Name?}");
       });
     }
   }
