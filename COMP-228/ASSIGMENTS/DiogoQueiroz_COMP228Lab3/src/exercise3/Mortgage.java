@@ -1,86 +1,58 @@
 package exercise3;
 
-interface MortgageConstants {
-    int shortTerm = 1;
-    int midTerm = 3;
-    int longTerm = 5;
-    String bankName = "BMO";
-    double maxAmount = 300000;
-}
+import javax.swing.*;
 
 public abstract class Mortgage implements MortgageConstants{
-    protected String mortgageNumber;
-    protected String customerName;
-    protected double mortgageAmount;
-    protected double interestRate;
-    protected int term;
+    private final String mortgageNumber;
+    private final String customerName;
+    private double mortgageAmount;
+    double interestRate;
+    private int term;
 
     Mortgage (String mortgageNumber, String customerName, double mortgageAmount, int term) {
         this.customerName = customerName;
-        this.mortgageAmount = mortgageAmount;
+        setMortgageAmount(mortgageAmount);
         this.mortgageNumber = mortgageNumber;
-        this.term = term;
+        setTerm(term);
     }
 
-    public String getMortgageNumber() {
-        return mortgageNumber;
+    public void setMortgageAmount(double mortgageAmount) {
+        if (mortgageAmount > maxAmount) {
+            String msg = String.format("Unfortunately your amount requested of %.0f is bigger than the max amount available of %.0f, in this case your mortgage will be %.0f,",
+                    mortgageAmount, maxAmount, maxAmount);
+            JOptionPane.showMessageDialog(null, msg);
+            this.mortgageAmount = maxAmount;
+        }
+        else {
+            this.mortgageAmount = mortgageAmount;
+        }
     }
-    public void setMortgageNumber(String mortgageNumber) {
-        this.mortgageNumber = mortgageNumber;
+    public void setTerm(int term) {
+        switch (term) {
+            case 0:
+                this.term = shortTerm;
+                break;
+            case 1:
+                this.term = midTerm;
+                break;
+            case 2:
+                this.term = longTerm;
+                break;
+        }
     }
+
+    public String getMortgageNumber() { return mortgageNumber; }
     public String getCustomerName() {
         return customerName;
-    }
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
     }
     public double getMortgageAmount() {
         return mortgageAmount;
     }
-    public void setMortgageAmount(double mortgageAmount) {
-        this.mortgageAmount = mortgageAmount;
-    }
-    public double getInterestRate() {
-        return interestRate;
-    }
-    public void setInterestRate(double interestRate) {
-        this.interestRate = interestRate;
-    }
+    public double getInterestRate() { return interestRate; }
     public int getTerm() {
         return term;
     }
-    public void setTerm(int term) {
-        if (term != shortTerm && term != midTerm && term != longTerm){
-            this.term = shortTerm;
-        }
-        this.term = term;
-    }
-
+    public String getBankName() { return bankName; }
     abstract String getMortgageInfo ();
-}
-
-class BusinessMortgage extends Mortgage{
-
-    BusinessMortgage (String mortgageNumber, String customerName, double mortgageAmount, int term, double interestRate) {
-        super(mortgageNumber, customerName, mortgageAmount, term);
-        this.interestRate = interestRate + (0.01 * interestRate);
-    }
-
-    @Override
-    String getMortgageInfo() {
-        return null;
-    }
-}
-
-class PersonalMortgage extends Mortgage {
-
-    PersonalMortgage (String mortgageNumber, String customerName, double mortgageAmount, int term, double interestRate) {
-        super(mortgageNumber, customerName, mortgageAmount, term);
-        this.interestRate = interestRate + (0.02 * interestRate);
-    }
-
-    @Override
-    String getMortgageInfo() {
-        return null;
-    }
+    abstract double getTotalOwned();
 }

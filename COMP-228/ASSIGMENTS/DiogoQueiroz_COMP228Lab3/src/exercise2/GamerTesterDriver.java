@@ -34,7 +34,7 @@ public class GamerTesterDriver {
         displayGameTestersInfo(gameTesters);
     }
 
-    public static void displayGameTestersInfo(GameTester[] gameTesters) {
+    private static void displayGameTestersInfo(GameTester[] gameTesters) {
         String msg;
         for (GameTester gm:gameTesters) {
             if (gm.isFullTime()) {

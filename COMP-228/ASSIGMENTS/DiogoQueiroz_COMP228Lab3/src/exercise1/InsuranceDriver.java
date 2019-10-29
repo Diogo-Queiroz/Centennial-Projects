@@ -6,7 +6,7 @@ public class InsuranceDriver {
     public static void main(String[] args) {
         Insurance[] insurances = new Insurance[2];
         String[] options = {"Life", "Health"};
-        int clientRequest = 2;
+        int clientRequest;
         int qtdInsurances = 0;
         double cost;
         while (qtdInsurances < 2){
